@@ -1,0 +1,24 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "way2p-schematics": {
+      "description": "A blank schematic.",
+      "factory": "./way2p-schematics/index#way2pSchematics"
+    },
+    "hello": {
+      "description": "A blank schematic.",
+      "factory": "./hello/index#hello",
+      "schema": "./hello/schema.json"
+    },
+    "multi-tab-component": {
+      "description": "A blank schematic.",
+      "factory": "./multi-tab-component/index#multiTabComponent",
+      "schema": "./multi-tab-component/schema.json"
+    },
+    "ng-add": {
+      "factory": "./ng-add/index",
+      "description": "Add schematic",
+      "schema": "./multi-tab-component/schema.json"
+    }
+  }
+}

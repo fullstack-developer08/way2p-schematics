@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "MultiTabComponentSchema",
+    "title": "Multi Tab Component Schema",
+    "type": "object",
+    "description": "This Schema is for Multitab Component",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Name is used for component name",
+            "x-prompt": "What name would you like to use for the component?"
+        }
+    },
+    "required": [
+        "name"
+    ]
+}
