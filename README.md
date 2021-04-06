@@ -1,28 +1,27 @@
-# Getting Started With Schematics
+# way2p-schematics
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+This repository contains schematics apps from basic to slightly advanced. the purpose of this repository is to learn the angular schematics.
 
-### Testing
-
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
-
-Check the documentation with
-```bash
-schematics --help
+## Contains Schematics
+```
+hello Schematics
+multi-tab-component Schematics
+way2p-schematics Schematics
 ```
 
-### Unit Testing
+way2p-schematics is the default schematics project under of this project we added hello and multi-tab-component schematics.
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
 
 ### Publishing
-
-To publish, simply do:
 
 ```bash
 npm run build
 npm publish
 ```
 
-That's it!
+### Add multi-tab-component using ng-add
+
+```bash
+ng add way2p-schematics
+```
  
